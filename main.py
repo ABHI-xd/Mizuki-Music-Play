@@ -19,7 +19,7 @@ from functions import (
 )
 from misc import HELP_TEXT, USERBOT_ONLINE_TEXT
 
-app = Client("tgvc", api_id=api_id, api_hash=api_hash)
+app = Client("tgvc", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 
 try:
