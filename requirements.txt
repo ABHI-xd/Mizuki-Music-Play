@@ -8,3 +8,4 @@ youtube_dl
 youtube_search
 aiohttp
 aiofiles
+ffmpeg
