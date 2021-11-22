@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-from yt_dlp import youtube_dl
+from yt_dlp import YoutubeDL
 import asyncio
 import aiohttp
 import time
