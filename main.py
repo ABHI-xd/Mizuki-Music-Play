@@ -13,7 +13,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
 )
 from youtube_search import YoutubeSearch
-from config import owner_id, bot_token, sudo_chat_id
+from config import OWNER_ID, BOT_TOKEN, SUDO_USERS
 from functions import (
     convert_seconds,
     time_to_seconds,
@@ -25,9 +25,9 @@ from functions import (
 
 app = Client(
     ":memory:",
-    bot_token=bot_token,
-    api_id=6,
-    api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e",
+    BOT_TOKEN=bot_token,
+    API_ID=6,
+    API_HASH="eb06d4abfb49dc3eeb1aeb98ae0f581e",
 )
 
 # For Blacklist filter
