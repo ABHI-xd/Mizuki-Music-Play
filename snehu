@@ -4,5 +4,5 @@ RUN apt-get install ffmpeg -y
 COPY . /app/
 WORKDIR /app/
 RUN pip3 install -U pip
-RUN pip3 install -U -r installer
+RUN pip3 install -U -r abhi
 CMD ["python3", "main.py"]
