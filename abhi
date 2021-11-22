@@ -7,3 +7,4 @@ requests
 youtube_search
 aiohttp
 aiofiles
+dotenv
